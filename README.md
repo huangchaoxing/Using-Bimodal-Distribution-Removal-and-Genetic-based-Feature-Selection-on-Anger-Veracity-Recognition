@@ -1,7 +1,7 @@
 # Using-Bimodal-Distribution-Removal-and-Genetic-based-Feature-Selection-on-Anger-Veracity-Recognition
 # **Readme**
 
-**Prerequisite**** ：**
+# Prerequisite 
 
 Pytorch 1.0
 
@@ -13,7 +13,7 @@ I have transformed the original dataset into a csv file by using online converte
 
 I have also included the train and test split data as npy array files.
 
-**Guidence for version-1 dataset:**
+# Guidence for version-1 dataset
 
 Most of the code file has almost identical code but with little difference in the plot code. I separate them into different files for convenience.
 
