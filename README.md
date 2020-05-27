@@ -25,6 +25,8 @@ Use pre\_bdr.py, set _bdr_ and _early\_stop_ as zero. You can change the activat
 
 Use the bdr\_err.py, you need to go to line 123-line 130 to comment/uncomment different choice of error. You will see the plotting then.
 
+
+
 **BDR hyperparameter experiment:**
 
 Go back to pre\_bdr.py, set _bdr_ and _early\_stop_ as 1. Assign different value to _alpha_ and _stop\_thresh._
@@ -40,3 +42,8 @@ Go back to pre\_bdr.py, set _bdr_ and _early\_stop_ as 1, assign different value
 **BDR as pre-processing:**
 
 Run bdr\_split.py, you will get the new dataset. Then go back to pre\_bdr.py to run the baseline again. Do not forget to change the data file name in pre\_bdr.py to the new one.
+# Guidence for version-2 dataset
+**Two-stream model**
+Run time_train.py to see the effect of two-stream model. When dealing with the time-differences input, the input of one of the stream need to be modified to one neurons less than the other stream, because time-differences is one frame less.  
+**GA algorithm**
+Run ea_nn.py to see the effect. You can play around with the hyperparameters. 
