@@ -43,7 +43,7 @@ Go back to pre\_bdr.py, set _bdr_ and _early\_stop_ as 1, assign different value
 
 Run bdr\_split.py, you will get the new dataset. Then go back to pre\_bdr.py to run the baseline again. Do not forget to change the data file name in pre\_bdr.py to the new one.
 # Guidence for version-2 dataset
-**Two-stream model**
+**Two-stream model**  
 Run time_train.py to see the effect of two-stream model. When dealing with the time-differences input, the input of one of the stream need to be modified to one neurons less than the other stream, because time-differences is one frame less.  
-**GA algorithm**
+**GA algorithm**  
 Run ea_nn.py to see the effect. You can play around with the hyperparameters. 
